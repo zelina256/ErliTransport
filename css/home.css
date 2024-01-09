@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+/* Navbar */
+.navbar {
+    transition: all .4s;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+#logo {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bgColor {
+    transition: all .2s;
+    background-color: #223F5B;
+    color: black;
+    border-bottom: 1px solid lightgray;
+}
+
+/* Footer */
+footer {
+    padding-top: 45px;
+    margin-top: auto;
+    background-color: #223F5B;
+    color: #ebebebf0;
+    width: 100%;
+}
+footer a{
+    color: #ebebebf0;
+    text-decoration: none;
+}
+
+#Copyright {
+    background-color: #242424;
+}
+
+footer ol, footer ul {
+    list-style: none;
+}
+footer ol li p {
+    font-size: 14px;
+}
+footer ol li span {
+    font-size: 20px;
+    color: cornflowerblue;
+}
+/* Carousel */
+.carousel{
+    position: relative;
+}
+.carousel::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    background: #11111185;
+    width: 100%;
+    height: 100%;
+}
+.carousel-inner,
+.carousel-inner img {
+    height:100vh;
+    object-fit: cover;
+}
+.infoCaros {
+    padding-left: 100px;
+    width: 100%;
+    height: 80px;
+    background-color: #223F5B;
+}
+
+.infoCaros i {
+    padding: 0;
+    font-size: 32px;
+    color: #ebebebf0;
+    margin-top: 23px;
+}
+
+.infoCaros h1 {
+    padding: 0;
+    margin-top: 18px;
+    top: 0;
+    font-size: 14px;
+    color: #ebebebf0;
+}
+
+.infoCaros p {
+    padding: 0;
+    margin-top: 0;
+    font-size: 12px;
+    color: #ebebebf0;
+}
+
+.About col img {
+    width: 100%;
+    margin-right: 0;
+    object-fit: cover;
+    height: auto;
+}
+
+#title {
+    color: #223F5B;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.line {
+    border-left: 3px solid #223F5B;
+    margin-left: 60px;
+    padding-left: 20px;
+}
+
+.textAbout {
+    margin-top: 30px;
+}
+
+.textAbout .lin2 {
+    margin-left: 60px;
+}
+
+.textAbout .lin2 p {
+    font-size: 14px;
+}
+
+.AboutImg {
+    position: relative;
+}
+
+.AboutImg p {
+    font-size: 14px;
+}
+
+.AboutImg img {
+    height: auto;
+}
+
+.AboutImg div {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ebebebf0;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 9;
+}
+
+.AboutImg div p {
+    z-index: 9;
+}
+
+.About {
+    background-color: #ebebebf0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.About button {
+    background-color: none;
+}
+#buttonAbout{
+    /* background-color: #223F5B; */
+    border-color: #223F5B;
+    color: #223F5B;
+}
+#buttonAbout:hover {
+    background-color: #223F5B;
+    color: #ebebebf0;
+}
+/* #hiddenContent{
+    position: relative;
+} */
+.AboutImg::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(22, 22, 22, 0.7), rgba(25, 25, 25, 0.7));
+}
+
+.About h1 {
+    font: 30px;
+    font-family: 'Kanit', serif;
+    font-weight: 700;
+}
+
+
+
+.offers i {
+    font-size: 50px;
+    padding: 0;
+    color: #223F5B;
+    margin-top: 23;
+    margin-right: 15px;
+}
+
+.offers .d-flex p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.truck {
+    width: 100%;
+    background-color: #0f2f4deb;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.truck img {
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.namesCeo {
+    border-left: 1px solid #ebebebf0;
+}
+
+.namesCeo h1 {
+    /* margin-top: 50px; */
+    font-size: 20px;
+    color: #ebebebf0;
+    margin-left: 30px;
+}
+
+.namesCeo h2 {
+    font-size: 14px;
+    color: #ebebebf0;
+    margin-left: 30px;
+}
+
+.namesCeo p {
+    font-size: 14px;
+    color: #ebebebf0;
+    margin-left: 30px;
+}
+
+.International {
+    width: 100%;
+    height: 10px;
+    background-color: #ebebebf0;
+}
+
+.InternationalAbout {
+    display: flex;
+    margin-top: 40px;
+}
+
+.InternationalAbout h1 {
+    font-size: 16px;
+    margin-left: 15px;
+    color: rgb(45, 45, 45);
+}
+
+.InternationalAbout p {
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.InternationalAbout i {
+    margin-left: 40px;
+    font-size: 35px;
+    color: dimgray;
+    margin-bottom: 50px;
+}
+
+.International button {
+    position: relative;
+    background-color: #ebebebf0;
+}
+
+.International hr {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    border: 1.5px solid #223F5B;
+}
+
+.International span {
+    color: #223F5B;
+    font-size: 20px;
+    font-weight: 750;
+}
+
+/* Responsiviteti */
+@media screen and (max-width:1024px) {
+}
+
+@media only screen and (max-width:660px) {
+}
+
+@media screen and (max-width:430px) {
+    
+}
